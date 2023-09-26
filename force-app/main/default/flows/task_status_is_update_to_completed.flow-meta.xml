@@ -14,7 +14,7 @@
         <locationY>0</locationY>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
-            <name>myRule_1</name>
+             <name>myRule_1</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <processMetadataValues>
