@@ -4,7 +4,7 @@ public class accounthandlercreatetask {
 
     	for (Account acc : accnewlist) {
        
-        if (!acc.Active1__c) {   // Check if the Account is added as Inactive (Active checkbox is unchecked).
+         if (!acc.Active1__c) {   // Check if the Account is added as Inactive (Active checkbox is unchecked).
             
             Task newTask = new Task();  // Create a Task record.
             newTask.Subject = 'Review Account - ' + acc.AccountNumber;

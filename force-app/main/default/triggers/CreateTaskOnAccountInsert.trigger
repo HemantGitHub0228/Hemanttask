@@ -1,7 +1,7 @@
 trigger CreateTaskOnAccountInsert on Account (after insert) {
     if(trigger.isInsert && trigger.isafter){
         
-        accounthandlercreatetask.taskcreate(trigger.new);
+    accounthandlercreatetask.taskcreate(trigger.new);
     
     }
 }
